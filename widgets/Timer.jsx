@@ -34,12 +34,12 @@ var Timer = React.createClass({
         });
         this.delay = null;
       }.bind(this), 100);
-    } 
+    }
   },
   render: function () {
     return (
       <h1 className="emptybox-timer">
-        <div>{this.state.time}</div> 
+        <div>{this.state.time}</div>
         min
       </h1>
     );

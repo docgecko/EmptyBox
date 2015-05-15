@@ -93,10 +93,10 @@ module.exports = React.createClass({
       DISQUS.reset({
         reload: true
         /*
-        config: function () {  
+        config: function () {
           this.page.shortname = props.shortname
           this.page.identifier = props.identifier;
-          this.page.title = props.title;  
+          this.page.title = props.title;
           this.page.url = props.url;
         }
         */

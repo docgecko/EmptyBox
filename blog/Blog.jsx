@@ -20,16 +20,16 @@ var Blog = React.createClass({
   renderHeader: function () {
     return (
       <div className="header-title">
-        <h1 className="header-title--maintitle"><a href="/">christianalfoni</a></h1>
+        <h1 className="header-title--maintitle"><a href="/">DarenWarburton</a></h1>
         <h4 className="header-title--subtitle">
-          Built with <a href="https://github.com/christianalfoni/EmptyBox" target="new"> EmptyBox</a>
+          Built with <a href="https://github.com/docgecko/EmptyBox" target="new"> EmptyBox</a>
         </h4>
       </div>
     );
   },
   render: function () {
     var article = this.state.cursors.articles.filter(function (article) {
-      return article.file === this.state.cursors.currentArticle; 
+      return article.file === this.state.cursors.currentArticle;
     }, this).pop();
     return (
       <div className="layout-blog">

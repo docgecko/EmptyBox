@@ -13,4 +13,3 @@ var TwitterShare = React.createClass({
 });
 
 module.exports = TwitterShare;
-

@@ -40,19 +40,19 @@ module.exports = React.createClass({
               {renderedArticle.tree}
             </article>
             <Disqus
-              shortname={'christianalfoni'}
+              shortname={'docgecko'}
               identifier={this.props.article.file}
               title={this.props.article.title}
-              url={'http://www.christianalfoni.com' + this.props.article.url}/>
+              url={'http://www.docgecko.com' + this.props.article.url}/>
           </div>
         </div>
         <div className="layout-column4">
           <ScrollSpy active={230}>
             <Timer content={this.props.article.content}/>
-            <TwitterShare 
-              url={'http://www.christianalfoni.com' + this.props.article.url} 
-              user="christianalfoni"/>
-            <Rss url="http://www.christianalfoni.com/rss"/>
+            <TwitterShare
+              url={'http://www.docgecko.com' + this.props.article.url}
+              user="docgecko"/>
+            <Rss url="http://www.docgecko.com/rss"/>
             <TOC data={renderedArticle.toc}/>
           </ScrollSpy>
         </div>
